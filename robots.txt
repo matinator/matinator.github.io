@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://matinator.github.io/al-folio/sitemap.xml
+Sitemap: https://matinator.github.io/sitemap.xml
