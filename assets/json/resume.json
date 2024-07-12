@@ -138,38 +138,17 @@
       "name": "Programming",
       "level": "Intermediate",
       "icon": "fa-solid fa-code",
-      "keywords": [
-        "Numpy",
-        "Pytorch",
-        "scikit-learn",
-        "qiskit",
-        "pennylane",
-        "Python",
-        "Julia",
-        "C/C++",
-        "Java",
-        "CI/CD",
-        "Docker",
-        "Git"
-      ]
+      "keywords": ["Numpy", "Pytorch", "scikit-learn", "qiskit", "pennylane", "Python", "Julia", "C/C++", "Java", "CI/CD", "Docker", "Git"]
     },
     {
       "name": "Soft skill",
       "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Team working",
-        "Public Speaking",
-        "Time surfer"
-      ]
+      "keywords": ["Team working", "Public Speaking", "Time surfer"]
     },
     {
       "name": "Finance",
       "icon": "fa-solid fa-coins",
-      "keywords": [
-        "Montecarlo",
-        "Option pricing",
-        "Portfolio Optimization"
-      ]
+      "keywords": ["Montecarlo", "Option pricing", "Portfolio Optimization"]
     }
   ],
   "languages": [
@@ -202,12 +181,12 @@
       "icon": "fa-solid fa-brain"
     },
     {
-      "name" : "Videogames",
-      "icon" : "fa-solid fa-gamepad"
+      "name": "Videogames",
+      "icon": "fa-solid fa-gamepad"
     },
     {
-      "name" : "Robotics",
-      "icon" : "fa-solid fa-robot"
+      "name": "Robotics",
+      "icon": "fa-solid fa-robot"
     }
   ],
   "references": [],
