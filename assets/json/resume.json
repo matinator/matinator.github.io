@@ -44,6 +44,14 @@
       "endDate": "2021-09-08",
       "summary": "Volunteer for the italian tech week of 2021",
       "highlights": []
+    },
+    {
+      "organization": "Starting Finance UniTo",
+      "location": "Turin, Italy",
+      "position": "HEAD of IT",
+      "startDate": "2021-09-06",
+      "summary": "Head or IT support and courses.",
+      "highlights": []
     }
   ],
   "education": [
@@ -91,10 +99,17 @@
   ],
   "skills": [
     {
-      "name": "Physics",
+      "name": "Quantum Computing",
       "level": "Master",
-      "icon": "fa-solid fa-hashtag",
+      "icon": "fa-solid fa-atom",
       "keywords": [
+        "Quantum Machine Learning",
+        "Variational Quantum Algorithms",
+        "Quantum Annealing",
+        "Quantum Processing Units",
+        "Tensor Networks",
+        "Qubits",
+        "Quantum inspired algorithms",
         "Quantum Mechanics",
         "Quantum Computing",
         "Quantum Information",
@@ -105,23 +120,9 @@
       ]
     },
     {
-      "name": "Quantum Computing",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Quantum Machine Learning",
-        "Variational Quantum Algorithms",
-        "Quantum Annealing",
-        "Quantum Processing Units",
-        "Tensor Networks",
-        "Qubits",
-        "Quantum inspired algorithms"
-      ]
-    },
-    {
       "name": "AI",
       "level": "Master",
-      "icon": "fa-solid fa-hashtag",
+      "icon": "fa-solid fa-brain",
       "keywords": [
         "Neural Networks",
         "Dimensionality Reduction",
@@ -129,7 +130,45 @@
         "Convolutional Neural Networks",
         "Decision Trees",
         "Time Series Forecasting",
-        "Deep reinforcement Learning"
+        "Deep reinforcement Learning",
+        "Gradient Boosting"
+      ]
+    },
+    {
+      "name": "Programming",
+      "level": "Intermediate",
+      "icon": "fa-solid fa-code",
+      "keywords": [
+        "Numpy",
+        "Pytorch",
+        "scikit-learn",
+        "qiskit",
+        "pennylane",
+        "Python",
+        "Julia",
+        "C/C++",
+        "Java",
+        "CI/CD",
+        "Docker",
+        "Git"
+      ]
+    },
+    {
+      "name": "Soft skill",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Team working",
+        "Public Speaking",
+        "Time surfer"
+      ]
+    },
+    {
+      "name": "Finance",
+      "icon": "fa-solid fa-coins",
+      "keywords": [
+        "Montecarlo",
+        "Option pricing",
+        "Portfolio Optimization"
       ]
     }
   ],
@@ -148,13 +187,27 @@
   "interests": [
     {
       "name": "Physics",
-      "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Finance"
-      ]
+      "icon": "fa-solid fa-atom"
+    },
+    {
+      "name": "Finance",
+      "icon": "fa-solid fa-coins"
+    },
+    {
+      "name": "GPU",
+      "icon": "fa-solid fa-hashtag"
+    },
+    {
+      "name": "AI",
+      "icon": "fa-solid fa-brain"
+    },
+    {
+      "name" : "Videogames",
+      "icon" : "fa-solid fa-gamepad"
+    },
+    {
+      "name" : "Robotics",
+      "icon" : "fa-solid fa-robot"
     }
   ],
   "references": [],
