@@ -39,11 +39,6 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 8
     steps:
-      - name: Debug Secret
-        run: echo "Token is available"
-        env:
-          TOKEN_NAME: ${{ secrets.LIGHTHOUSE_BADGER_TOKEN }}
-
       - name: Preparatory Tasks
         run: |
           REPOSITORY=`expr "${{ env.REPO_BRANCH }}" : "\([^ ]*\)"`
