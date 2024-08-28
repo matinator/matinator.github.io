@@ -39,6 +39,11 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 8
     steps:
+      - name: Debug Secret
+        run: echo "Token is available"
+        env:
+          TOKEN_NAME: ${{ secrets.LIGHTHOUSE_BADGER_TOKEN }}
+
       - name: Preparatory Tasks
         run: |
           REPOSITORY=`expr "${{ env.REPO_BRANCH }}" : "\([^ ]*\)"`
@@ -50,7 +55,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           repository: ${{ env.REPOSITORY }}
-          token: ${{ secrets[github.event.inputs.token_name] || secrets[env.TOKEN_NAME] }}
+          token: ${{ secrets.LIGHTHOUSE_BADGER_TOKEN }}
           ref: ${{ env.BRANCH }}
       - uses: actions/checkout@v4
         with:
