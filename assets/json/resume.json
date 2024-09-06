@@ -149,17 +149,7 @@
       "name": "Progamming",
       "level": "Intermidiate/Master",
       "icon": "fa-solid fa-code",
-      "keywords": [
-        "Python",
-        "C++",
-        "C",
-        "Julia",
-        "Rust",
-        "Java",
-        "Pytorch",
-        "GPU Programming",
-        "Javascript"
-      ]
+      "keywords": ["Python", "C++", "C", "Julia", "Rust", "Java", "Pytorch", "GPU Programming", "Javascript"]
     },
     {
       "name": "Artificial Intelligence",
@@ -178,13 +168,7 @@
       "name": "Finance",
       "level": "Intermidiate",
       "icon": "fa-solid fa-coins",
-      "keywords": [
-        "Portfolio Optimization",
-        "Risk Management",
-        "Option Pricing",
-        "Montecarlo",
-        "Algotihmic Trading"
-      ]
+      "keywords": ["Portfolio Optimization", "Risk Management", "Option Pricing", "Montecarlo", "Algotihmic Trading"]
     }
   ],
   "languages": [
@@ -231,8 +215,6 @@
       "keywords": []
     }
   ],
-  "references": [
-  ],
-  "projects": [
-  ]
+  "references": [],
+  "projects": []
 }
